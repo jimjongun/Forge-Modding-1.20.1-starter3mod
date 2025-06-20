@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+  {
+    "item": "starter3mod:diamondnetheritealloy_block"
+  }
+],
+"result": {
+  "item": "starter3mod:diamondnetheritealloy",
+  "count": 9
+ }
+}

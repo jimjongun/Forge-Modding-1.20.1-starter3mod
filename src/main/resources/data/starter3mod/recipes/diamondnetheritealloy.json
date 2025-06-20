@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "diamondnetheritealloy",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "starter3mod:blackdiamond"
+    },
+    {
+      "item": "starter3mod:blackdiamond"
+    },
+    {
+      "item": "starter3mod:blackdiamond"
+    },
+    {
+      "item": "starter3mod:blackdiamond"
+    }
+  ],
+  "result": {
+    "item": "starter3mod:diamondnetheritealloy"
+  }
+}

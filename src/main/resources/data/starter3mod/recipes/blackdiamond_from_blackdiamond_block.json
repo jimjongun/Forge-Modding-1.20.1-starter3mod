@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+  {
+    "item": "starter3mod:blackdiamond_block"
+  }
+],
+"result": {
+  "item": "starter3mod:blackdiamond",
+  "count": 9
+ }
+}

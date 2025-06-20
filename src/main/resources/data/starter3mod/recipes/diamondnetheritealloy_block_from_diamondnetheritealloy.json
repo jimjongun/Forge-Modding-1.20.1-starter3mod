@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "starter3mod:diamondnetheritealloy"
+    }
+  },
+  "result": {
+    "item": "starter3mod:diamondnetheritealloy_block"
+  }
+}

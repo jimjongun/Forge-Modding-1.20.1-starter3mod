@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 230400,
+  "experience": 10,
+  "group": "blackdiamond",
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "result": "starter3mod:blackdiamond"
+}

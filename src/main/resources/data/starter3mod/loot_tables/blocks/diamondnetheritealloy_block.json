@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "starter3mod:diamondnetheritealloy_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "starter3mod:blocks/diamondnetheritealloy_block"
+}

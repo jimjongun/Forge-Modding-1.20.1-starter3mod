@@ -2,10 +2,12 @@ package net.bdawg.starter3mod.block;
 
 import net.bdawg.starter3mod.Starter3Mod;
 import net.bdawg.starter3mod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,6 +24,11 @@ public static final RegistryObject<Block> DIAMONDNETHERITEALLOY_BLOCK = register
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
 public static final RegistryObject<Block> BLACKDIAMOND_BLOCK = registerBlock("blackdiamond_block",
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS)));
+
+// If I were to have an ore
+//public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
+//        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops(),
+//                UniformInt.of(3,6)));
 
 
 

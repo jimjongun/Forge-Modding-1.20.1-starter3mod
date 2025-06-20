@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 230400,
+  "cookingtime": 115200,
   "experience": 10,
   "group": "blackdiamond",
   "ingredient": {

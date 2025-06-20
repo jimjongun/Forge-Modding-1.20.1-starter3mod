@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.DIAMONDNETHERITEALLOY.get());
                         output.accept(ModItems.BLACKDIAMOND.get());
+                        output.accept(ModItems.WITHERSOUL.get());
 
                         output.accept(ModBlocks.DIAMONDNETHERITEALLOY_BLOCK.get());
                         output.accept(ModBlocks.BLACKDIAMOND_BLOCK.get());

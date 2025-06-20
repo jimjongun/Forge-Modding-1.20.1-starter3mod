@@ -1,6 +1,9 @@
 {
   "item.starter3mod.diamondnetheritealloy": "Diamond-Netherite Alloy",
-  "item.starter3mod.blackdiamond": "Black Diamond",
+  "item.starter3mod.blackdiamond": "Black Diamonds",
+
+  "block.starter3mod.diamondnetheritealloy_block": "Block of Diamond-Netherite Alloy",
+  "block.starter3mod.blackdiamond_block": "Block of Black Diamonds",
 
   "creativetab.powerarmor_tab": "Power Armor"
 }

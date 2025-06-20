@@ -1,6 +1,7 @@
 package net.bdawg.starter3mod;
 
 import com.mojang.logging.LogUtils;
+import net.bdawg.starter3mod.block.ModBlocks;
 import net.bdawg.starter3mod.item.ModCreativeModeTabs;
 import net.bdawg.starter3mod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -30,6 +31,7 @@ public class Starter3Mod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

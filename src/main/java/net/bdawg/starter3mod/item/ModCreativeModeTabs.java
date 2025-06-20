@@ -2,6 +2,7 @@ package net.bdawg.starter3mod.item;
 
 
 import net.bdawg.starter3mod.Starter3Mod;
+import net.bdawg.starter3mod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,9 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.DIAMONDNETHERITEALLOY.get());
                         output.accept(ModItems.BLACKDIAMOND.get());
+
+                        output.accept(ModBlocks.DIAMONDNETHERITEALLOY_BLOCK.get());
+                        output.accept(ModBlocks.BLACKDIAMOND_BLOCK.get());
                     })
                     .build());
 
